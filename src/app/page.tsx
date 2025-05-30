@@ -1,7 +1,6 @@
 // Home page
 
 import './globals.css'
-import Image from 'next/image'
 import { ReactNode } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
