@@ -18,7 +18,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="bg-gray-950 text-white font-sans">
-        <main className="min-h-screen">{children}
           <Navbar />
           <SubTitle title='Skills & Certifications'/>
           <SkillsList 
@@ -112,8 +111,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             ],
           }}
         />
+          <main className="min-h-screen">{children}</main>
           <Footer />
-        </main>
       </body>
     </html>
   )
