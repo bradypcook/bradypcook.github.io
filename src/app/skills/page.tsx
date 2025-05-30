@@ -1,7 +1,6 @@
 // Skills page
 
 import '@/app/globals.css'
-import { ReactNode } from 'react'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 import SubTitle from '@/app/components/SubTitle'
@@ -14,7 +13,7 @@ export const metadata = {
     icon: '/b-icon.ico',
   }
 }
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function SkillsPage() {
   return (
     <html lang="en">
       <body className="bg-gray-950 text-white font-sans">
@@ -111,8 +110,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             ],
           }}
         />
-          <main className="min-h-screen">{children}</main>
-          <Footer />
+        <Footer />
       </body>
     </html>
   )

@@ -1,7 +1,6 @@
 // Home page
 
 import './globals.css'
-import { ReactNode } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import MainTitle from './components/MainTitle'
@@ -15,15 +14,13 @@ export const metadata = {
     icon: '/b-icon.ico',
   }
 }
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function HomePage() {
   return (
     <html lang="en">
       <body className="bg-gray-950 text-white font-sans">
-        <main className="min-h-screen">{children}
           <Navbar />
           <MainTitle />
           <Footer />
-        </main>
       </body>
     </html>
   )
