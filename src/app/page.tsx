@@ -18,7 +18,6 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
   },
-  metadataBase: new URL('https://bradypcook.github.io'),
 }
 export default function HomePage() {
   return (
