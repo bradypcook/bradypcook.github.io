@@ -15,14 +15,6 @@ export const metadata = {
     description: "Explore my experiences, projects, skills, and learn more about me.",
     url: 'https://bradypcook.github.io',
     siteName: "Brady's Website",
-    images: [
-      {
-        url: '/sitelogo_transparent.png', 
-        width: 1200,
-        height: 630,
-        alt: "Brady's Website Logo",
-      },
-    ],
     type: 'website',
     locale: 'en_US',
   },
