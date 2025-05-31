@@ -7,7 +7,7 @@ import SubTitle from '@/app/components/SubTitle'
 import CardLayout from '@/app/components/CardLayout'
 
 export const metadata = {
-  title: 'Brady Cook - Projects',
+  title: "Brady's Website - Projects",
   icons: {
     icon: '/b-icon-alt.ico',
   },
@@ -18,7 +18,7 @@ export const metadata = {
     siteName: "Brady's Website",
     images: [
       {
-        url: '/sitelogotransparent.png', 
+        url: '/sitelogo_transparent.png', 
         width: 1200,
         height: 630,
         alt: "Brady's Website Logo",

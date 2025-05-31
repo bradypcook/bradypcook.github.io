@@ -8,7 +8,7 @@ import SkillsList from '@/app/components/SkillsList'
 import Image from 'next/image'
 
 export const metadata = {
-  title: 'Brady Cook - Skills',
+  title: "Brady's Website - Skills",
   icons: {
     icon: '/b-icon-alt.ico',
   },
@@ -19,7 +19,7 @@ export const metadata = {
     siteName: "Brady's Website",
     images: [
       {
-        url: '/sitelogotransparent.png', 
+        url: '/sitelogo_transparent.png', 
         width: 1200,
         height: 630,
         alt: "Brady's Website Logo",
