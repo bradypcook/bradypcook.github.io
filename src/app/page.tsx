@@ -5,14 +5,28 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import MainTitle from './components/MainTitle'
 
-//goes in the body section
-// <main className="min-h-screen">{children}</main>
-
 export const metadata = {
   title: 'Brady Cook - Home',
   icons: {
-    icon: '/b-icon.ico',
-  }
+    icon: '/b-icon-alt.ico',
+  },
+  openGraph: {
+    title: "Brady's Website",
+    description: "Explore my experiences, projects, skills, and learn more about me.",
+    url: 'https://bradypcook.github.io',
+    siteName: "Brady's Website",
+    images: [
+      {
+        url: '/sitelogotransparent.png', 
+        width: 1200,
+        height: 630,
+        alt: "Brady's Website Logo",
+      },
+    ],
+    type: 'website',
+    locale: 'en_US',
+  },
+  metadataBase: new URL('https://bradypcook.github.io'),
 }
 export default function HomePage() {
   return (

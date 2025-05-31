@@ -1,3 +1,5 @@
+//Displays my picture, outlines a quick bio, my cyber certifications, and my social media pages (put into icons)
+
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faInstagram, faSpotify, faStrava, } from "@fortawesome/free-brands-svg-icons";
@@ -21,9 +23,33 @@ export default function Biography({ boxes }) {
                 className="object-cover rounded-full"
               />
             )}
-
             <h2 className="text-3xl font-bold">{box.header}</h2>
             <p className="text-gray-300">{box.description}</p>
+
+            <hr className="w-full border-gray-600 my-4" />
+
+             {box.certifications && (
+              <div className="w-full mt-6">
+                <h2 className="text-3xl font-bold text-white mb-4">My Cybersecurity Certifications</h2>
+                <div className="flex flex-wrap justify-center gap-8 text-center">
+                  {box.certifications.map((item, idx) => (
+                    <div
+                      key={idx}
+                      className="flex flex-col items-center space-y-2 w-24 sm:w-28"
+                    >
+                      {item.svg && (
+                        <div className="w-16 h-16 sm:w-40 sm:h-20 flex items-center justify-center">
+                          {item.svg}
+                        </div>
+                      )}
+                      <p className="text-sm sm:text-base font-semibold text-gray-200">
+                        {item.label}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             <hr className="w-full border-gray-600 my-4" />
 

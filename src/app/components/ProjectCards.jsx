@@ -16,16 +16,16 @@ export default function ProjectCardsComponent({ imageSrc, title, description, bu
         />
       </div>
 
-      <div className="p-4 text-white flex flex-col space-y-3">
+      <div className="p-4 text-white flex flex-col space-y-3 flex-grow">
         <h3 className="text-xl font-semibold">{title}</h3>
-        <p className="text-gray-300 text-sm">{description}</p>
+        <p className="text-gray-300 text-sm flex-grow">{description}</p>
 
         {buttonText && buttonLink && (
           <a
             href={buttonLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-2 inline-block px-4 py-2 font-bold bg-blue-600 rounded-md hover:bg-[#4682B4] transition-colors duration-300 text-center"
+            className="inline-block px-4 py-2 font-bold bg-blue-600 rounded-md hover:bg-[#4682B4] transition-colors duration-300 text-center"
           >
             {buttonText}
           </a>

@@ -1,7 +1,14 @@
+// Lists skills (both unbulleted and bulleted), and manages SVGs
+
 export default function SkillsList({ sections, bulletSection }) {
   return (
     <section className="py-12 px-4">
       <div className="bg-zinc-800 rounded-xl shadow-md p-6 sm:p-10 max-w-5xl mx-auto space-y-10">
+        
+        <h2 className="text-white text-center text-2xl font-bold">
+          NOTE: My skills include, but are not limited to the following:
+        </h2>
+        
         {sections.map((section, index) => (
             <div key={index} className="space-y-6">
                 {section.title && (
@@ -11,7 +18,7 @@ export default function SkillsList({ sections, bulletSection }) {
             {section.items.map((item, idx) => (
                 <div key={idx} className="flex flex-col items-center space-y-2 w-24 sm:w-28">
                 {item.svg && (
-                    /*Writing this for myself, but the below line will change the size of the CompTIA SVGs */
+                    /*Writing this for myself, but the below line will change the size of the SVGs */
                     <div className="w-16 h-16 sm:w-40 sm:h-20 flex items-center justify-center">
                         {item.svg}
                     </div>

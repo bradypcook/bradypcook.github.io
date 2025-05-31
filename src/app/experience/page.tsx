@@ -9,8 +9,25 @@ import Timeline from '@/app/components/TimelineComponent'
 export const metadata = {
   title: 'Brady Cook - Experience',
   icons: {
-    icon: '/b-icon.ico',
-  }
+    icon: '/b-icon-alt.ico',
+  },
+  openGraph: {
+    title: "Brady's Website",
+    description: "Explore my experiences, projects, skills, and learn more about me.",
+    url: 'https://bradypcook.github.io',
+    siteName: "Brady's Website",
+    images: [
+      {
+        url: '/sitelogotransparent.png', 
+        width: 1200,
+        height: 630,
+        alt: "Brady's Website Logo",
+      },
+    ],
+    type: 'website',
+    locale: 'en_US',
+  },
+  metadataBase: new URL('https://bradypcook.github.io'),
 }
 export default function ExperiencePage() {
   return (

@@ -10,41 +10,41 @@ import Image from 'next/image'
 export const metadata = {
   title: 'Brady Cook - Skills',
   icons: {
-    icon: '/b-icon.ico',
-  }
+    icon: '/b-icon-alt.ico',
+  },
+  openGraph: {
+    title: "Brady's Website",
+    description: "Explore my experiences, projects, skills, and learn more about me.",
+    url: 'https://bradypcook.github.io',
+    siteName: "Brady's Website",
+    images: [
+      {
+        url: '/sitelogotransparent.png', 
+        width: 1200,
+        height: 630,
+        alt: "Brady's Website Logo",
+      },
+    ],
+    type: 'website',
+    locale: 'en_US',
+  },
+  metadataBase: new URL('https://bradypcook.github.io'),
 }
 export default function SkillsPage() {
   return (
     <html lang="en">
       <body className="bg-gray-950 text-white font-sans">
           <Navbar />
-          <SubTitle title='Skills & Certifications'/>
+          <SubTitle title='Skills'/>
           <SkillsList 
           sections={[
             {
-              title: "Certifications",
+              title: "Basic Web Development",
               items: [
-                { svg: 
-                <a href="https://www.credly.com/badges/86ccadca-9429-4734-b064-57870e5c4254/public_url" target="_blank" rel="noopener noreferrer">
-                  <Image src="/svg_collection/A+.svg" alt="CompTIA A+" width={100} height={100} className='mx-auto !max-w-none hover:opacity-85'/>
-                </a>,
-                label: "CompTIA A+",
-              },
-                { svg: 
-                <a href="https://www.credly.com/badges/c0c41775-b6e2-4b81-a4d7-c2c6a5e4584b/public_url" target="_blank" rel="noopener noreferrer">
-                  <Image src="/svg_collection/Network+.svg" alt="CompTIA Net+" width={100} height={100} className='mx-auto !max-w-none hover:opacity-85'/> 
-                </a>, 
-                label: "CompTIA Network+",},
-                { svg: 
-                <a href="https://www.credly.com/badges/cdb78fa7-8f4d-45f8-a0a9-775b02546bc7/public_url" target="_blank" rel="noopener noreferrer">
-                  <Image src="/svg_collection/Security+.svg" alt="CompTIA Net+" width={100} height={100} className='mx-auto !max-w-none hover:opacity-85'/> 
-                </a>,
-                label: "CompTIA Security+",},
-                { svg:
-                <a href="https://www.credly.com/badges/ebbbbbc4-d0c4-4c7f-88e3-a821d66d2cd1/public_url" target="_blank" rel="noopener noreferrer"> 
-                <Image src="/svg_collection/cisco_logo.svg" alt="CCNA" width={100} height={100} className='mx-auto !max-w-none hover:opacity-85'/> 
-                </a>,
-                label: "Cisco CCNA",},
+                { svg: <Image src="/svg_collection/HTML5_logo.svg" alt="Python" width={100} height={100} className='mx-auto !max-w-none'/>,
+                label: "HTML",},
+                { svg: <Image src="/svg_collection/CSS3_logo.svg" alt="JS" width={75} height={75} className='mx-auto !max-w-none'/>,
+                label: "CSS",},
               ],
             },
             {
@@ -107,6 +107,7 @@ export default function SkillsPage() {
               "Cisco Networking Principles",
               "DNS & Website Troubleshooting",
               "Artificial Intelligence (ChatGPT, Claude, etc.)",
+              "Productivity Software (Adobe Acrobat, Google Workspace, and MS Office products)",
             ],
           }}
         />

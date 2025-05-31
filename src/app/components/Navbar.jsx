@@ -10,7 +10,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center">
           <div className="relative w-10 h-10 sm:w-25 sm:h-25">
             <Image 
-              src="/sitelogotransparent.png"
+              src="/sitelogo_transparent.png"
               alt="Brady Cook Logo"
               fill
               className="object-contain"
