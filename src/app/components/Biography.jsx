@@ -56,6 +56,19 @@ export default function Biography({ boxes }) {
             <h3 className="text-2xl font-semibold">{box.secondaryHeader}</h3>
 
             <div className="flex flex-wrap justify-center gap-4 text-white text-5xl mt-2">
+              {box.handshake && (
+                <div className="flex justify-center items-center">
+                    <a href={box.handshake} target="_blank" rel="noopener noreferrer">
+                    <Image
+                        src="/Handshake_Wordmark_White_RGB.png" 
+                        alt="Handshake"
+                        width={150}
+                        height={150}
+                        className="hover:opacity-85"
+                    />
+                    </a>
+                </div>
+              )}
               {box.email && (
                 <a href={`mailto:${box.email}`}>
                   <FontAwesomeIcon icon={faEnvelope} className="hover:text-gray-400" />
@@ -85,19 +98,6 @@ export default function Biography({ boxes }) {
                 <a href={box.strava} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faStrava} className="hover:text-orange-400" />
                 </a>
-              )}
-              {box.handshake && (
-                <div className="flex justify-center items-center">
-                    <a href={box.handshake} target="_blank" rel="noopener noreferrer">
-                    <Image
-                        src="/Handshake_Wordmark_White_RGB.png" 
-                        alt="Handshake"
-                        width={150}
-                        height={150}
-                        className="hover:opacity-85"
-                    />
-                    </a>
-                </div>
               )}
             </div>
           </div>

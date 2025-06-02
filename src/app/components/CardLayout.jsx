@@ -12,7 +12,7 @@ const cards = [
   },
   {
     imageSrc: '/project_alt_image.png',
-    title: 'Wireshark Analyzer',
+    title: 'SharkScope',
     description: 'This is a program that accepts a Wireshark file (typically .pcap) and analyzes it.',
     buttonText: 'View on GitHub',
     buttonLink: 'https://github.com/bradypcook',
@@ -26,16 +26,16 @@ const cards = [
   },
   {
     imageSrc: '/project_alt_image.png',
-    title: 'CVE Finder',
+    title: 'CVEye',
     description: "This is a program that uses the NIST's National Vulnerability Database API to allow the user to examine CVEs.",
-    buttonText: 'View on GitHub',
+    buttonText: 'CYEye',
     buttonLink: 'https://github.com/bradypcook',
   },
   {
     imageSrc: '/project_alt_image.png',
-    title: 'F1 Stats',
+    title: 'DRSdata',
     description: "Born from my passion of Formula 1 racing (and amateur coding skills), this is a program that uses the F1 API to allow the user to examine statistics about the F1 season.",
-    buttonText: 'View on GitHub',
+    buttonText: 'DRSdata',
     buttonLink: 'https://github.com/bradypcook',
   },
   {
@@ -46,11 +46,11 @@ const cards = [
     buttonLink: 'https://github.com/bradypcook',
   },
   {
-    imageSrc: '/project_alt_image.png',
-    title: 'Cyberpatriot polished soundboard',
+    imageSrc: '/cyberpatriotfx_logo.png',
+    title: 'CyberPatriotFX ',
     description: "This project was inspired by the work of Erik Boeson who intially made this soundboard, which I restyled using my HTML/CSS skills. Click the button below to check out the project!",
-    buttonText: 'View on GitHub',
-    buttonLink: 'https://github.com/bradypcook',
+    buttonText: 'CyberPatriotFX',
+    buttonLink: 'https://bradypcook.github.io/CyberPatriotFX/',
   },
   {
     imageSrc: '/lego_spike_alt.png',
@@ -64,7 +64,7 @@ const cards = [
     title: 'Playmake Website',
     description: "My first project! Made during AcademiesHacks, it's' a simple musical website where you have to guess the tune of a given track.",
     buttonText: 'Playmake Website',
-    buttonLink: 'https://bradypcook.github.io/Playmake-Website',
+    buttonLink: 'https://bradypcook.github.io/Playmake-Website/',
   },
 ];
 
