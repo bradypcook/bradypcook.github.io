@@ -23,18 +23,17 @@ export const metadata = {
 }
 export default function SkillsPage() {
   return (
-    <html lang="en">
-      <body className="bg-gray-950 text-white font-sans">
-          <Navbar />
-          <SubTitle title='Skills'/>
-          <SkillsList 
+    <main className="bg-gray-950 text-white font-sans">
+      <Navbar />
+      <SubTitle title='Skills'/>
+      <SkillsList 
           sections={[
             {
               title: "Basic Web Development",
               items: [
-                { svg: <Image src="/svg_collection/HTML5_logo.svg" alt="Python" width={100} height={100} className='mx-auto !max-w-none'/>,
+                { svg: <Image src="/svg_collection/HTML5_logo.svg" alt="HTML" width={70} height={100} className='mx-auto !max-w-none'/>,
                 label: "HTML",},
-                { svg: <Image src="/svg_collection/CSS3_logo.svg" alt="JS" width={75} height={75} className='mx-auto !max-w-none'/>,
+                { svg: <Image src="/svg_collection/CSS3_logo.svg" alt="CSS" width={50} height={80} className='mx-auto !max-w-none'/>,
                 label: "CSS",},
               ],
             },
@@ -102,8 +101,7 @@ export default function SkillsPage() {
             ],
           }}
         />
-        <Footer />
-      </body>
-    </html>
+      <Footer />
+    </main>
   )
 }

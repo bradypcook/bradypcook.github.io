@@ -22,11 +22,10 @@ export const metadata = {
 }
 export default function ExperiencePage() {
   return (
-    <html lang="en">
-      <body className="bg-gray-950 text-white font-sans">
-          <Navbar />
-          <SubTitle title='Experience'/>
-          <Timeline 
+    <main className="bg-gray-950 text-white font-sans">
+        <Navbar />
+        <SubTitle title='Experience'/>
+        <Timeline 
           boxes={[
             { title: 'BIT Club',
               text: 'I am currently serving on the BIT (Business Information Technology) Executive Board at Virginia Tech, where I am the web developer. Go check out the website by clicking below!',
@@ -51,9 +50,8 @@ export default function ExperiencePage() {
               text: 'Over the years, I have participated in multiple extracurriculars ranging from Scouting to the Red Cross Club. While serving in these positions, I led a service project and initiatives, mentored younger scouts, and helped those in need.',
               image: '/scouting_redcross_logo.png' },
           ]}
-        />
-        <Footer />
-      </body>
-    </html>
+      />
+      <Footer />
+    </main>
   )
 }

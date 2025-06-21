@@ -6,7 +6,7 @@ export default function SkillsList({ sections, bulletSection }) {
       <div className="bg-zinc-800 rounded-xl shadow-md p-6 sm:p-10 max-w-5xl mx-auto space-y-10">
         
         <h2 className="text-white text-center text-2xl font-bold">
-          NOTE: My skills include, but are not limited to the following:
+          My skills include, but are not limited to the following:
         </h2>
         
         {sections.map((section, index) => (

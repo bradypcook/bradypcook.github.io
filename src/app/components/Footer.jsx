@@ -8,7 +8,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export default function Footer() {
   return (
-    <footer className="bg-black-900 text-gray-400 py-3 mt-6">
+    <footer className="bg-black text-gray-400 py-3 mt-6">
       <div className="max-w-7xl mx-auto px-2 flex flex-col md:flex-row justify-between items-center text-lg">
         <p className="mb-1 md:mb-0">
           © {new Date().getFullYear()} Brady Cook

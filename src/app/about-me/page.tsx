@@ -23,11 +23,10 @@ export const metadata = {
 }
 export default function AboutMePage() {
   return (
-    <html lang="en">
-      <body className="bg-gray-950 text-white font-sans">
-          <Navbar />
-          <SubTitle title='About Me'/>
-          <Biography 
+    <main className="bg-gray-950 text-white font-sans">
+      <Navbar />
+      <SubTitle title='About Me'/>
+      <Biography 
           boxes={[
             {
               image: "/my_picture2.jpg",
@@ -71,8 +70,20 @@ export default function AboutMePage() {
             },
           ]}
           />
-          <Footer />
-      </body>
-    </html>
+          {/*
+          Implement this sometime
+          
+          <button ondblclick="betsonJetson()">Betson Jetson!</button>
+
+            <body>
+                <script>
+                    function betsonJetson() {
+                        alert("Hey There! Bet you didn't expect this popup, did you?");
+                    } 
+                </script>
+
+            </body> */}
+      <Footer />
+    </main>
   )
 }

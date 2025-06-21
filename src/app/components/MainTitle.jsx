@@ -9,7 +9,7 @@ export default function MainTitle() {
       </h2>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold">Brady Cook</h1>
         <p className="mt-4 text-gray-300 text-base sm:text-lg tracking-wide">
-           and welcome to my website, where you can look at my skills, examine my past projects & experiences, and read more about me!
+            about computer networking, cybersecurity, programming, and much more!
         </p>
       </div>
     </div>
