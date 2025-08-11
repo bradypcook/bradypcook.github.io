@@ -27,16 +27,18 @@ const cards = [
   {
     imageSrc: '/drsdata_home.png',
     title: 'DRSdata',
-    description: "Born from my passion of Formula 1 racing (and amateur coding skills), this is a program that uses the F1 API to allow the user to examine statistics about the F1 season.",
+    description: "Born from my passion of Formula 1 racing (and amateur coding skills), this is a program that uses the FastF1 API to allow the user to see the standings for the ______ season, as well as examine stats from previous races (and more!).",
     buttonText: 'DRSdata',
     buttonLink: 'https://bradypcook.github.io/drsdata/',
+    // Used FastF1 API instead of OpenF1 API 
   },
   {
-    imageSrc: '/project_alt_image.png',
+    imageSrc: '/cveye_close.png',
     title: 'CVEye',
     description: "This is a program that uses the NIST's National Vulnerability Database API to allow the user to examine CVEs (Common Vulnerabilites and Exposures).",
     buttonText: 'CYEye',
-    buttonLink: 'https://github.com/bradypcook',
+    buttonLink: 'https://bradypcook.github.io/cveye/',
+    // API Link: https://nvd.nist.gov/developers/vulnerabilities 
   },
   {
     imageSrc: '/cyberpatriotfx_logo.png',
