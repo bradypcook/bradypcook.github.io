@@ -6,28 +6,28 @@ const cards = [
   {
     imageSrc: '/netrino_home.png',
     title: 'Netrino',
-    description: 'Netrino is a program that I created to assist with configuring Cisco IOS devices by allowing you to create & modify configs.',
+    description: 'Netrino is a python program that I created to assist with configuring Cisco IOS devices by allowing you to create & modify network device config files.',
     buttonText: 'View on GitHub',
     buttonLink: 'https://github.com/bradypcook',
   },
   {
     imageSrc: '/project_alt_image.png',
     title: 'SharkScope',
-    description: 'This is a program that accepts a Wireshark file (typically .pcap) and analyzes it.',
+    description: 'Sharkscope is a python program that accepts a Wireshark file (typically .pcap) and analyzes it.',
     buttonText: 'View on GitHub',
     buttonLink: 'https://github.com/bradypcook',
   },
   {
     imageSrc: '/hns_logo.png',
     title: 'HawkNode Security Network',
-    description: 'Designed and implemented a WAN (Wide Area Network) for a hypothetical corporation (HawkNode Security) in Packet Tracer and created proper documentation for others to view.',
+    description: 'Designed and implemented a CAN (Campus Area Network) for a hypothetical corporation (HawkNode Security) in Cisco Packet Tracer and created proper documentation for others to view.',
     buttonText: 'View on GitHub',
     buttonLink: 'https://github.com/bradypcook/hawknodesecurity_network',
   },
   {
     imageSrc: '/drsdata_home.png',
     title: 'DRSdata',
-    description: "Born from my passion of Formula 1 racing (and amateur coding skills), this is a program that uses the FastF1 API to allow the user to see the standings for the ______ season, as well as examine stats from previous races (and more!).",
+    description: `Born from my passion of Formula 1 racing (and amateur coding skills), this is a program that uses the FastF1 API to allow the user to see the standings for the ${new Date().getFullYear()} season, and more!`,
     buttonText: 'DRSdata',
     buttonLink: 'https://bradypcook.github.io/drsdata/',
     // Used FastF1 API instead of OpenF1 API 
@@ -35,7 +35,7 @@ const cards = [
   {
     imageSrc: '/cveye_close.png',
     title: 'CVEye',
-    description: "This is a program that uses the NIST's National Vulnerability Database API to allow the user to examine CVEs (Common Vulnerabilites and Exposures).",
+    description: "This is a website that uses the NIST's National Vulnerability Database API to allow the user to examine CVEs (Common Vulnerabilites and Exposures).",
     buttonText: 'CYEye',
     buttonLink: 'https://bradypcook.github.io/cveye/',
     // API Link: https://nvd.nist.gov/developers/vulnerabilities 
@@ -43,21 +43,21 @@ const cards = [
   {
     imageSrc: '/cyberpatriotfx_logo.png',
     title: 'CyberPatriotFX ',
-    description: "This project was inspired by the work of Erik Boeson who intially made this soundboard, which I restyled using my HTML/CSS skills. Click the button below to check out the project!",
+    description: "This website was inspired by the work of Erik Boeson who intially made this soundboard, which I restyled using my HTML/CSS skills. Click the button below to check out the project!",
     buttonText: 'CyberPatriotFX',
     buttonLink: 'https://bradypcook.github.io/CyberPatriotFX/',
   },
   {
     imageSrc: '/lego_spike_alt.png',
     title: 'First Lego League',
-    description: 'A robotic project I did for a college class where we had to make a robot do certain tasks in a set amount of time. Converted the code to python afterwards in order to upload it to GitHub.',
+    description: 'A robotics project I did for a college class where we had to make a LEGO SPIKE robot do certain tasks in a set amount of time. Converted the code to python afterwards in order to upload it to GitHub.',
     buttonText: 'View on GitHub',
     buttonLink: 'https://github.com/bradypcook/FLL-robot',
   },
   {
     imageSrc: '/playmakeicon.png',
     title: 'Playmake Website',
-    description: "My first project! Made during AcademiesHacks, it's' a simple musical website where you have to guess the tune of a given track.",
+    description: "My first coding project! Made during AcademiesHacks, it's a simple musical website where you have to guess the tune of a given track.",
     buttonText: 'Playmake Website',
     buttonLink: 'https://bradypcook.github.io/Playmake-Website/',
   },
