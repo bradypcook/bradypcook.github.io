@@ -23,7 +23,7 @@ export default function Footer() {
           <a href="https://www.linkedin.com/in/bradypcook/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FontAwesomeIcon icon={faLinkedin} className="hover:text-[#4682B4]  transition" />
           </a>
-          <a href="https://vt.joinhandshake.com/profiles/6ybjff" target="_blank" rel="noopener noreferrer" aria-label="Handshake">
+          <a href="https://vt.joinhandshake.com/profiles/bradycook" target="_blank" rel="noopener noreferrer" aria-label="Handshake">
             <div className="flex justify-center items-center">
               <Image
                 src="/Handshake_Wordmark_White_RGB.png" 

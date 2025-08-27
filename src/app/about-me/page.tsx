@@ -1,4 +1,5 @@
 // About Me page
+// MDX https://mdxjs.com/playground/
 
 import '@/app/globals.css'
 import Navbar from '@/app/components/Navbar'
@@ -39,7 +40,7 @@ export default function AboutMePage() {
               instagram: 'https://www.instagram.com/brady.cook.7/',
               spotify: 'https://open.spotify.com/user/bcook468',
               strava: 'https://www.strava.com/athletes/92112180',
-              handshake: 'https://vt.joinhandshake.com/profiles/6ybjff',
+              handshake: 'https://vt.joinhandshake.com/profiles/bradycook',
             
               certifications: [
                 { svg: 
