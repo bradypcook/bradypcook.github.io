@@ -60,37 +60,35 @@ const cards = [
     description: "My first coding project! Made during AcademiesHacks, it's a simple musical website where you have to guess the tune of a given track.",
     buttonText: 'Playmake Website',
     buttonLink: 'https://bradypcook.github.io/Playmake-Website/',
-  },
-  {/** 
-  {
-    imageSrc: '/________.png',
-    title: 'ROMMON Mode Access',
-    description: "Created a lab in Cisco Packet Tracer where users can access ROM memory (Read Only Memory) for when they get locked out of the switch. Posted the results on GitHub.",
-    buttonText: 'Playmake Website',
-    buttonLink: 'https://bradypcook.github.io/Playmake-Website/',
-  },
-  {
-    imageSrc: '/________.png',
-    title: 'Active Directory Project',
-    description: "Insert project details here.",
-    buttonText: 'Playmake Website',
-    buttonLink: 'https://bradypcook.github.io/Playmake-Website/',
-  },
-  {
-    imageSrc: '/________.png',
-    title: 'SimpleSIEM',
-    description: "Insert SimpleSIEM details here.",
-    buttonText: 'SimpleSIEM',
-    buttonLink: 'https://bradypcook.github.io/Playmake-Website/',
-  },
-  {
-    imageSrc: '/________.png',
-    title: 'Something with a VM',
-    description: "Insert project details here.",
-    buttonText: 'Playmake Website',
-    buttonLink: 'https://bradypcook.github.io/Playmake-Website/',
-  },
-  */}
+  }, 
+  //{
+    //imageSrc: '/________.png',
+    //title: 'ROMMON Mode Access',
+    //description: "Created a lab in Cisco Packet Tracer where users can access ROM memory (Read Only Memory) for when they get locked out of the switch. Posted the results on GitHub.",
+    //buttonText: 'Playmake Website',
+    //buttonLink: 'https://bradypcook.github.io/Playmake-Website/',
+  //},
+  //{
+    //imageSrc: '/________.png',
+    //title: 'Active Directory Project',
+    //description: "Insert project details here.",
+    //buttonText: 'Playmake Website',
+    //buttonLink: 'https://bradypcook.github.io/Playmake-Website/',
+  //},
+  //{
+    //imageSrc: '/________.png',
+    //title: 'SimpleSIEM',
+    //description: "Insert SimpleSIEM details here.",
+    //buttonText: 'SimpleSIEM',
+    //buttonLink: 'https://bradypcook.github.io/Playmake-Website/',
+  //},
+  //{
+    //imageSrc: '/________.png',
+    //title: 'Something with a VM',
+    //description: "Insert project details here.",
+    //buttonText: 'Playmake Website',
+    //buttonLink: 'https://bradypcook.github.io/Playmake-Website/',
+  //},
 ];
 
 export default function CardGrid() {
