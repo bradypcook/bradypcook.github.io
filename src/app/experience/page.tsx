@@ -27,11 +27,15 @@ export default function ExperiencePage() {
         <SubTitle title='Experience'/>
         <Timeline 
           boxes={[
+            { title: 'Aramark',
+              text: 'I am currently an IT Intern for Aramark Corporation, where I specialize in making sure our POS systems are running for over 60,000+ customers during gamedays. ',
+              image: '/aramark_logo_transparent.png',
+              },
             { title: 'BIT Club',
-              text: 'I am currently serving on the BIT (Business Information Technology) Executive Board at Virginia Tech, where I am the web developer. Go check out the website by clicking below!',
+              text: 'I am currently serving on the BIT (Business Information Technology) Executive Board at Virginia Tech, where I am the Web Design Chair. Go check out the website by clicking below!',
               image: '/bit_club_logo.png',
               buttonText: 'Click Here!',
-              buttonLink: 'https://gobblerconnect.vt.edu/organization/bitclub'},
+              buttonLink: 'https://bitclubvt.org/'},
             { title: 'GMU CS Club HackFax CTF', 
               text: "I have helped out with George Mason University's CS Club annual hackathon, called HackFax. More specifically, I helped out in the Networking portion CTF (Capture the Flag) competition where users solve challenges in order to earn points. The video below explains the challenges in the CTF and helps highlight my contributions:",
               image: '/hackfax_logo.png',
