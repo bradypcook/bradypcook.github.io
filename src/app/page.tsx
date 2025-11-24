@@ -8,7 +8,7 @@ import MainTitle from './components/MainTitle'
 export const metadata = {
   title: "Brady's Website - Home",
   icons: {
-    icon: '/b-icon-alt.ico',
+    icon: '/b_icon_new.ico',
   },
   openGraph: {
     title: "Brady's Website",

@@ -60,7 +60,7 @@ export default function Biography({ boxes }) {
                 <div className="flex justify-center items-center">
                     <a href={box.handshake} target="_blank" rel="noopener noreferrer">
                     <Image
-                        src="/Handshake_Wordmark_White_RGB.png" 
+                        src="/third_party_logos/Handshake_Wordmark_White_RGB.png" 
                         alt="Handshake"
                         width={150}
                         height={150}

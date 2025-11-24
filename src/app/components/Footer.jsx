@@ -26,7 +26,7 @@ export default function Footer() {
           <a href="https://vt.joinhandshake.com/profiles/bradycook" target="_blank" rel="noopener noreferrer" aria-label="Handshake">
             <div className="flex justify-center items-center">
               <Image
-                src="/Handshake_Wordmark_White_RGB.png" 
+                src="/third_party_logos/Handshake_Wordmark_White_RGB.png" 
                 alt="Handshake"
                 width={150}
                 height={25}

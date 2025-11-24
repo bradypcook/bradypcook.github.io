@@ -11,7 +11,7 @@ import Image from 'next/image'
 export const metadata = {
   title: "Brady's Website - About Me",
   icons: {
-    icon: '/b-icon-alt.ico',
+    icon: '/b_icon_new.ico',
   },
   openGraph: {
     title: "Brady's Website",

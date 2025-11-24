@@ -10,7 +10,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center">
           <div className="relative w-10 h-10 sm:w-25 sm:h-25">
             <Image 
-              src="/sitelogo_transparent.png"
+              src="/sitelogo_transparent_new.png"
               alt="Brady Cook Logo"
               fill
               className="object-contain"
@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="flex space-x-6 text-sm sm:text-base items-center font-bold">
           <Link href="/skills">Skills</Link>
           <Link href="/experience">Experience</Link>
-          <Link href="/projects">Projects</Link>
+          <Link href="/projects">Projects & Labs</Link>
           <Link href="/about-me">About Me</Link>
         </div>
       </div>

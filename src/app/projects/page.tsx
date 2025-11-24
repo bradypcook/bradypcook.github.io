@@ -7,9 +7,9 @@ import SubTitle from '@/app/components/SubTitle'
 import CardLayout from '@/app/components/CardLayout'
 
 export const metadata = {
-  title: "Brady's Website - Projects",
+  title: "Brady's Website - Projects & Labs",
   icons: {
-    icon: '/b-icon-alt.ico',
+    icon: '/b_icon_new.ico',
   },
   openGraph: {
     title: "Brady's Website",
@@ -24,7 +24,7 @@ export default function ProjectsPage() {
   return (
     <main className="bg-gray-950 text-white font-sans">
         <Navbar />
-        <SubTitle title='Projects'/>
+        <SubTitle title='Projects & Labs'/>
         <CardLayout />
         <Footer />
     </main>
